@@ -8,7 +8,7 @@ ros2 pkg create turtle_control --build-type ament_python --dependencies rclpy ge
 ```
 C++ package:
 ``` bash
-ros2 pkg create turtle_control --build-type ament_cmake --dependencies rclpy geometry_msgs std_msgs --node-name turtle controller
+ros2 pkg create turtle_control --build-type ament_cmake --dependencies rclcpp geometry_msgs std_msgs --node-name turtle controller
 ```
 
 Make sure you source the enviroment with:
