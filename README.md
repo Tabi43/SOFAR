@@ -121,11 +121,11 @@ We need to define the package interface describe above...
 The ***action.action*** is structured as:
 ``` python
     #Request
+    ---  
+    #Result
+    std_msgs/Int64 blabla
     ---
     #Feedback
-    ---
-    #Response
-    std_msgs/Int64 blabla
 ```
 Before compile we need to add a line inside ***CMakeLists.txt*** :
 ``` python
