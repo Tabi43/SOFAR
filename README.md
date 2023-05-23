@@ -118,6 +118,8 @@ NOTE:
 # Action & Interfaces
 We need to define the package interface describe above... 
 
+***The first letter of the File.action must be uppercase!***
+
 The ***action.action*** is structured as:
 ``` python
     #Request
